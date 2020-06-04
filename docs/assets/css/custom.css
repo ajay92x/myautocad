@@ -1,0 +1,161 @@
+/*
+
+1. Add your custom Css styles below
+2. Place the this code in your template:
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+
+@media (min-width: 320px){
+  .grid-1-photogallery, .grid-2-photogallery,.grid-3-photogallery {height:250px !important;}
+  .mobile-quick-view {heigh:400px; width:100%; overflow:auto;}
+  .grid-4-photogallery {height:250px !important;}
+  .openfordiscussion {padding:0 !important;}
+  }
+@media (min-width: 481px){
+  .grid-1-photogallery {height:250px !important;}
+  .grid-2-photogallery {height:150px !important;}
+  .mobile-quick-view {heigh:400px; width:100%; overflow:auto;}
+  .grid-3-photogallery {height:140px !important;}
+  .grid-4-photogallery {height:160px !important;}
+  .openfordiscussion {padding:0 !important;}
+  }
+@media (min-width: 640px){
+  .grid-1-photogallery {height:300px !important;}
+  .grid-2-photogallery {height:250px !important;}
+  .mobile-quick-view {heigh:400px; width:100%; overflow:auto;}
+  .grid-3-photogallery {height:160px !important;}
+  .grid-4-photogallery {height:200px !important;}
+  .openfordiscussion {padding:0 !important;}
+  .ajax-image-scroll {width:100%; height:100vh; overflow: auto; padding:15px;}
+  .ajax-image-scroll::-webkit-scrollbar { width: .3em; }
+  .ajax-image-scroll::-webkit-scrollbar-track { box-shadow: inset 0 0 6px rgba(0, 0, 0, 0); border-radius: 3px;}
+  .ajax-image-scroll::-webkit-scrollbar-thumb { background-color: #000000; outline: 1px solid #fff; border-radius: 3px;}
+  }
+@media (min-width: 768px){
+  .grid-1-photogallery {height:300px !important;}
+  .grid-2-photogallery {height:250px !important;}
+  .grid-3-photogallery {height:180px !important;}
+  .grid-4-photogallery {height:240px !important;}
+  .ajax-image-scroll-page {height: 100vh; padding: 1em; margin: auto; overflow-y: auto; overflow-x: hidden; direction: ltr; text-align: left;}
+  .ajax-image-scroll-page::-webkit-scrollbar { width: .3em; }
+  .ajax-image-scroll-page::-webkit-scrollbar-track { box-shadow: inset 0 0 6px rgba(0, 0, 0, 0); border-radius: 3px;}
+  .ajax-image-scroll-page::-webkit-scrollbar-thumb { background-color: #000000; outline: 1px solid #fff; border-radius: 3px;}
+  }
+@media (min-width: 1024px){
+  .grid-1-photogallery {height:400px !important;}
+  .grid-2-photogallery {height:300px !important;}
+  }
+@media (min-width: 1200px){
+  .grid-1-photogallery {height:400px !important;}
+  .grid-2-photogallery {height:300px !important;}
+  .grid-3-photogallery {height: 240px !important;}
+  .openfordiscussion {padding:0 !important;}
+}
+@media (min-width: 1400px){
+  .grid-1-photogallery {height:450px !important;}
+  .grid-2-photogallery {height:350px !important;}
+  .grid-3-photogallery {height: 240px !important;}
+  }
+@media (min-width: 1600px){
+  .grid-1-photogallery {height:600px !important;}
+  .grid-2-photogallery {height:400px !important;}
+  .grid-3-photogallery {height: 240px !important;}
+  }
+  
+@media (min-width: 320px){
+ .grid-1-compare, .grid-2-compare,.grid-3-compare,.grid-4-compare {height:250px !important;}
+ }
+@media (min-width: 481px){
+ .grid-1-compare, .grid-2-compare,.grid-3-compare,.grid-4-compare {height:350px !important;}
+ }
+@media (min-width: 640px){
+ .grid-1-compare, .grid-2-compare,.grid-3-compare,.grid-4-compare {height:500px !important;}
+ }
+@media (min-width: 768px){
+ .grid-1-compare {height:300px !important;}
+ .grid-2-compare {height:250px !important;}
+ .grid-3-compare {height:180px !important;}
+ .grid-4-compare {height:240px !important;}
+ }
+@media (min-width: 1024px){
+ .grid-1-compare {height:400px !important;}
+ .grid-2-compare {height:300px !important;}
+ }
+@media (min-width: 1200px){
+ .grid-1-compare {height:400px !important;}
+ .grid-2-compare {height:300px !important;}
+ .grid-3-compare {height: 240px !important;}
+}
+@media (min-width: 1400px){
+ .grid-1-compare {height:450px !important;}
+ .grid-2-compare {height:350px !important;}
+ .grid-3-compare {height: 240px !important;}
+ }
+@media (min-width: 1600px){
+ .grid-1-compare {height:600px !important;}
+ .grid-2-compare {height:400px !important;}
+ .grid-3-compare {height: 240px !important;}
+ }
+
+.product .product-myplans a {
+  border: 2px solid #333;
+  border-radius: 50%;
+  height: 30px;
+  left: 12px;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  width: 30px;
+  z-index: 5;
+  opacity: 1;
+  background-color: #000000;
+  }
+
+  .qmirror {
+     -moz-transform: scale(-1, 1);
+     -webkit-transform: scale(-1, 1);
+     transform: scale(-1, 1);
+     transition: 0.6s;
+	   transform-style: preserve-3d;
+  }
+  .qrevert {
+     transition: 0.6s;
+	   transform-style: preserve-3d;
+     -moz-transform: scale(1, 1);
+     -webkit-transform: scale(1, 1);
+     transform: scale(1, 1);
+  }
+  .btnhide {display:none;}
+  .btnshow {display:block;}
+
+a.text-bold {text-decoration:underline}
+
+.iframe-container-video{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container-video iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.alert  {z-index:1 !important;}
+
+.blogimages img {max-width:100% !important;}
+
+.table td, .table th {
+    border-top: none !important;
+}
+
+.fixedsize {width:280px; height:170px; object-fit:cover}
+
+.alert {border:none !important;} 
+

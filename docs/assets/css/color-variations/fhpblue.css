@@ -1,0 +1,350 @@
+/* DEFAULT HEX COLOR: #26B8F3 */
+/* CHANE IT BY REPLEACING THE VALUE ABOVE */
+
+::-moz-selection {
+ background: #000000;
+ color: #333;
+ text-shadow: none;
+}
+::selection {
+	background: #000000;
+	text-shadow: none;
+	color: #333;
+}
+.text-colored, h1.text-colored, h2.text-colored, h3.text-colored, h4.text-colored, h5.text-colored, h6.text-colored, .color-font, .color-font a, .widget-tweeter li a, .widget-twitter li a, p.text-colored, .heading.heading-colored h1, .heading.heading-colored h2 {
+	color: #000000 !important;
+}
+.progress-bar-container.color .progress-bar {
+	background-color: #000000;
+	color: #fff;
+}
+.blockquote-color {
+	background-color: #000000;
+	color: #fff;
+}
+.blockquote-color > small {
+	color: #fff;
+}
+/*buttons*/
+.button.color, .btn.btn-primary {
+	background-color: #000000;
+	border-color: #000000;
+	color: #fff;
+}
+/*go to top*/
+
+.gototop-button {
+	background-color: #000000;
+}
+.gototop-button {
+	color: #fff;
+}
+nav .main-menu .dropdown-menu {
+	border-color: #000000;
+}
+#topbar.topbar-colored {
+	background-color: #000000;
+}
+/*vertical-dot-menu */
+#vertical-dot-menu a:hover .cd-dot, #vertical-dot-menu a.active .cd-dot {
+	background-color: #000000;
+}
+/*scrollspy nav */
+/*.sidebar-menu ul.nav-tabs li, */
+.sidebar-menu ul.nav-tabs li:hover .sidebar-menu ul.nav-tabs li a, .sidebar-menu ul.nav-tabs li a:hover, .sidebar-menu ul.nav-tabs li.active a, .sidebar-menu ul.nav-tabs li.active a:hover {
+	color: #fff;
+	background: #000000;
+	border: 1px solid #000000;
+}
+/*Bootstrap defaults overrides*/
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+	background-color: #000000;
+	border-color: #000000;
+}
+.list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
+	color: #fff;
+}
+.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
+	color: #000000;
+}
+pre {
+	background-color: #fcfcfc;
+	border: 1px solid #ececec;
+}
+.alert {
+	border-left-width: 10px;
+	border-radius: 0;
+}
+.alert-success {
+	background-color: #5cb85c;
+	border-color: #53af53;
+}
+.alert-info {
+	background-color: #2699c8;
+	border-color: #3aaddc;
+}
+.alert-warning {
+	background-color: #f6b63a;
+	border-color: #ffcd51;
+}
+.alert-danger {
+	background-color: #de4b37;
+	border-color: #f3604c;
+}
+.alert, .alert a.alert-link {
+	color: #fff;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	background-color: #000000;
+	border-color: #000000;
+	color: #fff;
+}
+.pagination > li > a:hover i, .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+	color: #333;
+}
+/*navs*/
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	background-color: #000000;
+	color: #fff;
+}
+/*Typography*/
+
+a:hover {
+	color: #000000;
+}
+/*dropcat & highlight*/
+.dropcap.dropcap-colored, .dropcap.dropcap-colored a, .highlight.highlight-colored, .highlight.highlight-colored a {
+	background-color: #000000;
+	color: #fff;
+}
+/*timeline*/
+.timeline.timeline-colored .timeline-circles:before, .timeline.timeline-colored .timeline-circles:after, .timeline.timeline-colored .timeline-date, .timeline.timeline-colored:before {
+	background-color: #000000;
+	color: #fff;
+}
+.timeline.timeline-colored li .timeline-block:before {
+	border-color: transparent #000000;
+}
+.timeline.timeline-colored .timeline-block-image {
+	border-color: #000000;
+}
+.timeline.timeline-colored.timeline-simple .timeline-date {
+	background-color: #fff;
+	border: 1px solid #000000;
+	color: #000000;
+}
+/*tabs*/
+
+.border .tabs-navigation li.active a:after {
+	background: #000000;
+}
+/*accordions*/
+
+.breadcrumb a:hover {
+	color: #000000;
+}
+/*color*/
+
+.accordion.color .ac-item .ac-title {
+	background: #000000;
+	color: #fff;
+}
+.accordion.color-border-bottom .ac-item .ac-title {
+	border-bottom: 1px dotted #000000;
+}
+.accordion.color-border-bottom .ac-item .ac-title:before {
+	color: #000000;
+}
+/*ICONS*/
+
+.icon-box.color .icon i {
+	background: #000000;
+	color: #fff;
+}
+.icon-box.color .icon i:after {
+	box-shadow: 0 0 0 3px #000000;
+}
+.icon-box.border.color .icon, .icon-box.border.color .icon i {
+	color: #000000;
+	border-color: #000000;
+}
+.icon-box.fancy.color .icon i {
+	color: #000000;
+	background-color: transparent;
+}
+/*FONT AWESOME ICONS*/
+
+.fontawesome-icon-list .fa-hover a:hover {
+	background-color: #000000;
+}
+/*lists icons*/
+
+ul.icon-list li i {
+	color: #000000;
+}
+/* ----------------------------------------------------------------
+    Backgrounds
+-----------------------------------------------------------------*/
+
+.background-colored {
+	background-color: #000000 !important;
+}
+/* ----------------------------------------------------------------
+    NPROGRESS
+-----------------------------------------------------------------*/
+
+#nanobar-progress div {
+	background: #000000 !important;
+}
+/* ----------------------------------------------------------------
+    PORTFOLIO
+-----------------------------------------------------------------*/
+.portfolio-filter li.ptf-active, .portfolio-filter li:hover {
+	background-color: #000000;
+}
+.portfolio-filter li:not(.ptf-active):hover {
+	color: #000000;
+}
+/* ----------------------------------------------------------------
+    HEADINGS
+-----------------------------------------------------------------*/
+.heading-title-border-color {
+	border-color: #000000;
+}
+/* ----------------------------------------------------------------
+    IMAGE BOX
+-----------------------------------------------------------------*/
+.image-box-links a {
+	background-color: #000000;
+}
+.image-box.effect.bleron {
+	background-color: #000000;
+}
+.image-block-content .feature-icon {
+	background-color: #000000;
+}
+.image-box.effect.bleron p.image-box-links a {
+	color: #000000;
+}
+/* ----------------------------------------------------------------
+    SHOP PRODUCTS
+-----------------------------------------------------------------*/
+.product .product-wishlist a:hover {
+	border-color: #000000;
+}
+
+/* ----------------------------------------------------------------
+    Custom Elements
+-----------------------------------------------------------------*/
+
+.color .tabs-navigation li.active a {
+    color: white;
+    background: #000000;
+}
+
+#page-title.page-title-classic {
+    background-color: #c9e0f3;
+    border-bottom: 1px solid #a9cceb;
+    border-top: 1px solid #a9cceb;
+    padding: 20px 0;
+}
+
+/*
+.product .product-image {
+    position: relative;
+    width: 100%;
+    max-height: 200px;
+    overflow: hidden;
+}
+.product .product-image img {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.product .product-rate {
+    height: 23px;
+    float: left;
+    color: #333;
+  }*/
+.product .product-rate, .product .product-rate a  {
+    color: #333;
+}
+.product .product-wishlist a {
+    color:#fff;
+    border-color:#fff;
+}
+.product .product-wishlist a:hover {
+    color:#94C341;
+    border-color:#94C341;
+}
+
+input.text-form {
+    border: 2px solid #ebebeb;
+    color: #777;
+    /*display: block;*/
+    line-height: 1.33333;
+    max-width: 100%;
+    min-width: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    padding: 6px 8px;
+    color: #999;
+}
+
+.background-grey {
+    background-color: #ffffff !important;
+}
+.background-bluegrey {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.page-title h1 {
+  /*color:#214e8f;*/
+  color: #78a9d3;
+    /*text-shadow: 2px 2px 1px #000000;*/
+}
+.page-title span {
+  color: #94C341 !important;*/
+  color: #fff !important;
+  text-shadow: 2px 2px 1px #000000;
+  font-weight: 300 !important;
+  font-size: 2em !important;
+  opacity: 1 !important;
+}
+
+.text-box h3 {
+    margin-top: 1em;
+}
+
+
+a.btn:not([href]):not([tabindex]):hover, a.btn:not([href]):not([tabindex]):focus, a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled):active, a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled).active, .btn:hover, .btn:focus, .btn:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+    color: #fff;
+}
+
+.table-primary, .table-primary>td, .table-primary>th {background-color: #000000 !important; color: #ffffff !important;}
+.table-secondary, .table-secondary>td, .table-secondary>th {background-color: #efefef !important;}
+
+#page-title {background-color: #000000 !important; padding:10px 0 !important; color:#fff !important;}
+
+#page-title a {color:#fff !important;}
+
+.ajax-image-scroll {background-color:#fff !important;}
+
+.mobile-quick-view, .project-description {background-color:#fff !important;}
+
+#mainMenu nav > ul > li.mega-menu-item .mega-menu-content .mega-menu-title {
+padding: 5px 12px;
+   background-color: #000000;
+   color: #fff;
+}
+
+#mainMenu nav > ul > li .dropdown-menu > li > a:hover, #mainMenu nav > ul > li .dropdown-menu > li > span:hover, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:hover {
+   background-color: rgba(0,0,0,.04);
+}
+
